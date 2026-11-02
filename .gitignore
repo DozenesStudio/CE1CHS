@@ -1,0 +1,35 @@
+# Visual C++ 5.0 output directories / Visual C++ 5.0 构建输出目录
+Release/
+Debug/
+WMIPSRel/
+WMIPSDbg/
+WCESHRel/
+WCESHDbg/
+x86emRel/
+x86emDbg/
+
+# Compiler and linker intermediates / 编译器与链接器中间文件
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.res
+*.bsc
+*.sbr
+*.tmp
+
+# Built binaries / 构建生成的二进制文件
+*.exe
+*.dll
+*.lib
+
+# Developer Studio state and generated files / Developer Studio 状态及生成文件
+*.aps
+*.ncb
+*.opt
+*.plg
+*.mak
+*.user
+.vs/

@@ -1,0 +1,3 @@
+# ±ß½ç²âÊÔ£º¹ÂÁ¢·Ç·¨×Ö½Ú¡¢ºÏ·¨Ë«×Ö½Ú×Ö·ûºÍÄ©Î²½Ø¶ÏĞòÁĞ¡£
+The bytes after this line contain 0x80, a valid Zhong character, and a final truncated lead byte.
+€ÖĞĞ

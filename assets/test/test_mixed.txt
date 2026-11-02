@@ -1,0 +1,6 @@
+# 中英混排测试：ASCII、数字、GB2312 汉字和中英文标点。
+Windows CE 1.0 中文显示测试，版本v1.0。
+ABC中文123，测试OK！English和汉字紧邻。
+第1行Line1，第2行Line2；半角(括号)与全角（括号）。
+Path=C:\CE1CHS\TEST.TXT，文件大小256KB，状态Ready。
+左侧Left中文Right右侧，标点,.!?，。！？混用。

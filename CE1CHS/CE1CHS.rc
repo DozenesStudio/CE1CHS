@@ -1,0 +1,7 @@
+/* Adds the application icon and grayscale bitmaps to the executable. */
+#include "resource.h"
+
+IDI_ICON1 ICON DISCARDABLE "app.ico"
+IDB_BACKGROUND BITMAP DISCARDABLE "bg.2bp"
+IDB_LOGO1 BITMAP DISCARDABLE "logo1.2bp"
+IDB_LOGO2 BITMAP DISCARDABLE "logo2.2bp"

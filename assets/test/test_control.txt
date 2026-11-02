@@ -1,0 +1,7 @@
+# 控制字符测试：Tab、CRLF、单独LF和混合换行。
+ColumnA	ColumnB	123
+中文	English	中文
+This line ends with CRLF.
+This line ends with LF only.
+下一行也使用LF换行。
+Last control line ends with CRLF.

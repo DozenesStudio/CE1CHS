@@ -1,0 +1,10 @@
+; Export definition for the CE1CHS reusable display core DLL.
+LIBRARY CE1CHSCore
+
+EXPORTS
+    CE1CoreCreate       @1
+    CE1CoreDestroy      @2
+    CE1CoreHibernate    @3
+    CE1CoreActivate     @4
+    CE1CoreDrawPage     @5
+    CE1CoreMeasurePage  @6
