@@ -262,8 +262,9 @@ static void Ce1UpdatePageControls(HWND hWnd)
 {
     if (g_app.hCommandBar != NULL)
     {
-        (void)SendMessage(g_app.hCommandBar, TB_HIDEBUTTON, CE1_CMD_BACK,
-                          (LPARAM)MAKELONG(Ce1UiGetPage() == PAGE_HOME, 0));
+        (void)SendMessage(g_app.hCommandBar, TB_SETSTATE, CE1_CMD_BACK,
+                          (LPARAM)MAKELONG(Ce1UiGetPage() == PAGE_HOME ?
+                                            0 : TBSTATE_ENABLED, 0));
     }
     Ce1UpdateScrollbar(hWnd);
 }
